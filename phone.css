@@ -1,0 +1,89 @@
+
+/** Navbar **/
+#navbar{
+ flex-direction: column;
+ justify-content: center;   
+}
+
+#navbar #logo img{
+ display: block; 
+ height: 100px;
+ padding: 2px; 
+ margin: 2px;
+}
+
+#navbar ul li a{
+ font-size: 12px;
+ margin: 3px;
+ padding: 4px;  
+}
+
+/** Home Section **/
+#home{
+ height: 300px;
+ padding: 4px;
+}
+
+#home::before{
+ height: 450px;
+}
+
+#home p{
+ font-size: 1.3rem;
+ padding: 3px;
+ margin: 3px;
+}
+
+#home .btn{
+ font-size: 15px;
+ padding: 2px 5px;
+ margin: 5px;
+}
+
+/** Services **/
+#services{
+ margin: 20px;
+}
+
+#services .ser{
+ flex-direction: column;
+ margin: 5px;
+}
+
+.ser-box{
+ padding: 5px;
+ margin: 10px;
+}
+
+.ser-box img{
+ height: 70px;
+ margin: 10px;
+}
+
+/* Clent */
+.client-box{
+ flex-wrap: wrap;  
+}
+
+.client-box .client-item{
+ margin: 10px;
+}
+   
+.client-box .client-item img{
+ height: 70px;
+}
+    
+/* Contact */
+
+#contact h1{
+ padding: 15px;
+}
+
+.contact-item{
+ padding: 10px;
+}
+
+/* Common */
+.hed{
+ font-size: 2.0rem;   
+}
